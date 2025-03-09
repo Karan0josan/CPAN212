@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  
+  text-align: center;
+
+
+}
+
+h2 {
+  
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+
+
+p, li, a {
+  font-size: 16px; /* Content size */
+  margin-bottom: 0.8rem;
+  text-align: left; /* Left alignment */
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
