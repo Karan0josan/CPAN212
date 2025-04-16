@@ -1,0 +1,18 @@
+--- Research Output ---
+Timestamp: 20250415_211309
+
+{
+  "topic": "Dire Wolf (Aenocyon dirus)",
+  "summary": "The dire wolf (Aenocyon dirus) was an extinct species of canine that roamed the Americas until approximately 13,000 years ago. While popularized by modern fiction like Game of Thrones, these were real prehistoric predators that were about 20% larger than modern gray wolves. Recent genetic studies from 2021 analyzing fossil remains dated 50,000 to 13,000 years ago have provided new insights into their evolution and extinction. In a groundbreaking development, biotechnology company Colossal Biosciences has reportedly successfully created hybrid wolf pups carrying dire wolf genes, though these animals are still 99.9% gray wolf. This represents a significant advancement in both paleogenetics and de-extinction efforts, while raising important questions about species conservation and genetic engineering.",
+  "sources": [
+    "Wikipedia",
+    "Various scientific news sources reporting on Colossal Biosciences' dire wolf genetic research",
+    "2021 genetic analysis of dire wolf fossil remains"
+  ],
+  "tools_used": [
+    "wikipedia",
+    "search",
+    "save_text_to_file"
+  ]
+}
+
