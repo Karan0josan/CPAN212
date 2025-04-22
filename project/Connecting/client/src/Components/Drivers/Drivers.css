@@ -1,0 +1,72 @@
+.text {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    background: linear-gradient(135deg, #5e35b1, #8e24aa);
+    color: white;
+    margin-bottom: 10px;
+    padding: 30px;
+    height: 70vh; 
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertical centering */
+    flex: 1;
+  }
+
+
+  .apply-button {
+    display: block;
+    margin: 30px auto; /* centers the button horizontally */
+    padding: 12px 24px;
+    background-color: white;
+    color: #8e24aa;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #f3e5f5;
+    transform: scale(1.05);
+  }
+  
+  .form-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-container input,
+  .form-container button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    background-color: #8e24aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #6a1b9a;
+  }
+  
+  

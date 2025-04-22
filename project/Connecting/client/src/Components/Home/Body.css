@@ -1,0 +1,79 @@
+.main-container {
+  width: 80%;
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-container h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #6a0dad;
+}
+.box {
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+  padding: 30px;
+  position: relative;
+  width: 90%;
+  height: 100vh;
+  background: url("../../assets/image-asset.jpeg") no-repeat;
+  background-size: 100% 50%;
+  color: white;
+}
+.blur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  border-radius: 20px;
+  background: rgba(106, 13, 173, 0.4);
+  backdrop-filter: blur(10px); /* Actual blur effect */
+  z-index: 0;
+}
+.box h2,
+.box p,
+.box ul {
+  position: relative;
+  z-index: 1;
+}
+
+.main-container p {
+  font-size: 24px;
+}
+.box-text {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+}
+.box-left,
+.box-right {
+  width: 50%;
+}
+.box-right {
+
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  gap: 40px;
+}
+.box-text h2{
+    color: white;
+}
+.box-down {
+
+  margin-top: -20%;
+  margin-left: 20px;
+  background: #F1F1F1;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+  padding: 30px;
+
+}

@@ -1,0 +1,36 @@
+/* .middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 35px;
+  margin-bottom: 10px;
+  max-height: 50%;
+} */
+ .middle{
+  margin-bottom: 100px;
+ }
+
+
+.middle-text {
+  max-width: 300px;
+  /* height: 80%; */
+  margin-top: 50px;
+  margin-left: 20px;
+  background: rgba(50, 50, 50, 0.5);
+  backdrop-filter: blur(10px);
+  /* padding: 4%; */
+  border-radius: 10px;
+  padding: 4% 8%;
+
+}
+h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+.box-text{
+   font-size: 20px;
+    color: white;
+    
+}

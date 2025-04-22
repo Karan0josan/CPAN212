@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.left{
+    margin-left: 20%;
+    font-size: 20px;
+}
+.right{
+   margin-left: 20%;
+   font-size: 20px;
+}
+/* .footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+   
+} */
